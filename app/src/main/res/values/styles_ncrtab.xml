@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Ncrtab" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_ncrtab</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Ncrtab</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Ncrtab</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Ncrtab</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Ncrtab</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Ncrtab</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_ncrtab</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_ncrtab</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ncrtab</item>
+
+        
+    </style>
+
+    <style name="ActionBar.Solid.Ncrtab" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_ncrtab</item>
+        <item name="backgroundStacked">@drawable/cab_background_bottom_ncrtab</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_ncrtab</item>
+        <item name="progressBarStyle">@style/ProgressBar.Ncrtab</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Ncrtab" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_ncrtab</item>
+        <item name="progressBarStyle">@style/ProgressBar.Ncrtab</item>
+    </style>
+	
+    <style name="PopupMenu.Ncrtab" parent="@style/Widget.Sherlock.Light.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_ncrtab</item>	
+    </style>
+	
+    <style name="DropDownListView.Ncrtab" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_ncrtab</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Ncrtab" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_ncrtab</item>
+    </style>
+	
+    <style name="DropDownNav.Ncrtab" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_ncrtab</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_ncrtab</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_ncrtab</item>
+    </style>
+    
+    <style name="ProgressBar.Ncrtab" parent="@style/Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_ncrtab</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Ncrtab" parent="@style/Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_ncrtab</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Ncrtab.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Ncrtab</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Ncrtab</item>
+    </style>
+
+</resources>
